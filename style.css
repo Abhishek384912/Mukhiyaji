@@ -1,0 +1,524 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "gilroy";
+    box-sizing: border-box;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+}
+#main {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+#nav {
+    width: 100%;
+    height: 10vh;
+    background-color: #fff;
+    display: flex;
+}
+#start {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+#start a {
+    text-decoration: none;
+    font-family: "gilroy";
+    color: black;   
+    font-weight: 500;
+    font-size: 12px;
+}
+#line {
+    width: 100%;
+    height: .5vh;
+    background-color: #d5dfa0;
+}
+#first {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url(KajuKatriposterr.png);
+    background-position: top;
+    background-size: cover;
+}
+#first>img {
+    object-fit: cover;
+    object-position: center;
+    z-index: 99;
+}
+#second {
+    width: 100%;
+    height: 30vh;
+}
+#taste{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    position: relative;
+    top: 20%;
+}
+#taste1 {
+    width: 25%;
+    height: 20vh;
+    padding-top: 35px;
+    background-color: #f0f0f0;
+}
+#taste2 {
+    width: 25%;
+    height: 20vh;
+    background-color: #f0f0f0;
+    padding-top: 35px;
+}
+#taste3 {
+    width: 25%;
+    height: 20vh;
+    background-color: #f0f0f0;
+    padding-top: 35px;
+}
+#taste i {
+    color: #fac44b;
+    font-size: 45px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+#taste h4 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 18px;
+    
+}
+#taste p {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    opacity: .4;
+    font-size: 15px;
+}
+#third {
+    width: 100%;
+    height: 60vh;
+    background-color: #d5dcac;
+}
+.namkeen {
+    width: 15%;
+    height: 7vh;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.namkeen h3 {
+    font-weight: 500;
+    font-size: 40px;
+    color: #fff; 
+}
+.line1 {
+    width: 70%;
+    height: 1px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    margin-top: 55px;
+}
+#namke {
+    background-color: black;
+}
+#sweet {
+    background-color: rgb(181, 181, 35);
+}
+.namken {
+    position: relative;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: inline-block;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 70%;
+    height: 30vh;
+}
+.nam1 {
+    width: 25%;
+    height: 30vh;
+    display: inline-block;
+}
+.img {
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+}
+#pic {
+    background-image: url(https://www.dadus.co.in/media/catalog/product/cache/a75c14610ad2258f4e58b13f2a9e2150/5/_/5_3.png);
+}
+#pic1 {
+    background-image: url(matri.jpg);
+}
+#pic2 {
+    background-image: url(kajuMasala.jpg);
+}
+#pic3 {
+    background-image: url(chudwa.jpg);
+}
+#pic4 {
+    background-image: url(https://www.dadus.co.in/media/catalog/product/cache/a75c14610ad2258f4e58b13f2a9e2150/7/_/7_1_1.png);
+}
+#pic5 {
+    background-image: url(https://www.dadus.co.in/media/catalog/product/cache/a75c14610ad2258f4e58b13f2a9e2150/r/a/ratlami_sev_262_1.jpg);
+}
+#pic6 {
+    background-image: url(https://www.dadus.co.in/media/catalog/product/cache/a75c14610ad2258f4e58b13f2a9e2150/p/a/papdi_mixture_264_1.jpg);
+}
+#text {
+    width: 100%;
+    height: 20%; 
+    background-color: #fff;   
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#text>p {
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: .7;
+}
+.namken::-webkit-scrollbar{
+    display: none;
+}
+#fourth {
+    width: 100%;
+    height: 60vh;
+    background-color: #eceaea;
+}
+#img1 {
+    background-image: url(kaju.jpg);
+}
+#img2 {
+    background-image: url(kajukatli.jpg);
+}
+#img3 {
+    background-image: url(balusahi.jpg);
+}
+#img4 {
+    background-image: url(moongladdu.jpg);
+}
+#img5 {
+    background-image: url(https://www.dadus.co.in/media/catalog/product/cache/52e8b9200b7fcf002f17a7cf0fc19943/6/1/61.png);
+}
+#img6 {
+    background-image: url(https://5.imimg.com/data5/NV/BR/DK/SELLER-38675678/ghevar-sweet-500x500.jpg);
+}
+#img7 {
+    background-image: url(https://i.ytimg.com/vi/GcoTYTwvgsU/maxresdefault.jpg);
+}
+#fifth {
+    width: 100%;
+    height: 60vh;
+    background-color: #d5dcac;
+}
+#gift {
+    background-color: black;
+}
+#imgg1 {
+    background-image: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmedium_2x%2Fpublic%2F1542062283%2Fchocolate-and-cream-layer-cake-1812-cover.jpg%3Fitok%3DrEWL7AIN);
+}
+#imgg2 {
+    background-image: url(https://justbakedcake.com/wp-content/uploads/2020/09/Chocochip-pastry-768x512.jpg);
+}
+#imgg3 {
+    background-image: url(https://2.wlimg.com/product_images/bc-full/2021/1/8384633/bakery-biscuits-1610787825-5691788.jpeg);
+}
+#imgg4 {
+    background-image: url(gift.png);
+}
+#sixth {
+    width: 100%;
+    height: 95vh;
+    background-image: url(back.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+}
+#text1 {
+    position: relative;
+    top: 6%;
+    left: 38%;
+    transform: translate(0,-50%);
+}
+#text1>p {
+    font-size: 40px;
+    font-weight: 700;
+    color: #dabb78;
+    border-bottom: 3px solid #dabb78;
+    position: absolute;
+}
+#div1 {
+    position: relative;
+    width: 100%;
+    height: 73%;
+    top: 22%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+#div2 {
+    width: 32%;
+    height: 100%;
+    background-image: url(wedding.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+#div3 {
+    width: 32%;
+    height: 100%;
+    background-color: black;
+    background-image: url(https://wallpaperaccess.com/full/4002045.jpg);
+    background-position: center;
+    background-size: cover;  
+}
+#div4 {
+    width: 32%;
+    height: 100%;
+    background-color: black;   
+    background-image: url(https://cdn.shopify.com/s/files/1/0634/0421/2467/products/61LhTHjpSRS_c1ac17ce-5d10-4dff-9ae3-98a6ca662f89_540x.jpg?v=1647506818);
+    background-position: center;
+    background-size: cover; 
+}
+#bottom {
+    width: 100%;
+    height: 30vh;
+    background-color: #d5dfa0;
+    display: flex;
+}
+#address {
+    position: relative;
+    top: 10%;
+    left: 15%;
+    width: 25%;
+    height: 80%;
+}
+#addr {
+    padding-top: 50px;
+    font-weight: 500;
+    line-height: 23px;
+    font-size: 16px;
+}
+#addressBox>h4 {
+    position: absolute;
+    border-bottom: 3px solid #8b8d1f;
+    font-size: 16px;
+}
+#quick {
+    position: relative;
+    top: 10%;
+    left: 20%;
+    width: 25%;
+    height: 80%;
+}
+#quickLink {
+    margin-bottom: 50px;
+}
+#quickLink>h4 {
+    position: absolute;
+    border-bottom: 3px solid #8b8d1f;
+    font-size: 16px;
+}
+#link>a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+#copyright {
+    width: 100%;
+    height: 6vh;
+    background-color: black;
+    display: flex;
+    white-space: nowrap;
+    
+}
+#copy {
+    margin-left: 180px;
+    align-items: center;
+    white-space: nowrap;
+    display: flex;
+    gap: 20px;
+}
+#copy i {
+    color: white;
+    font-size: 12px;
+}
+#copy a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+#copy p {
+    color: white;
+    font-size: 12px;
+}
+#copy>a:hover {
+    color: salmon;
+}
+#logo {
+    position: relative;
+    z-index: 999;
+    background-color: rgb(243, 193, 86);
+    width: 12%;
+    height: 155%;
+    top: 25%;
+    left: -38%;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    rotate: -10deg;
+}
+#logo>img {
+    position: absolute;
+    width: 80%;
+}
+
+@media(max-width: 500px) {
+    #nav {
+        height: 6vh;
+    }
+    #start {
+        gap: 20px;
+    }
+    #start a {
+        font-size: 11px;
+    }
+    #logo {
+        width: 16%;
+        height: 100%;
+        left: -83%;
+        top: 69%;
+    }
+    #first {
+       height: 33vh;
+    }
+    #second {
+        height: 24vh;
+    }
+    #taste {
+        gap: 10px;
+        top: 20%;
+    }
+    #taste1 {
+        height: 14vh;
+        width: 30%;
+        padding-top: 22px;
+    }
+    #taste2 {
+        height: 14vh;
+        width: 30%;
+        padding-top: 22px;
+    }
+    #taste3 {
+        height: 14vh;
+        width: 30%;
+        padding-top: 22px;
+    }
+    #taste i {
+        font-size: 22px;
+    }
+    #taste h4 {
+        font-size: 8px;
+    }
+    #taste p {
+        font-size: 7px;
+    }
+    #third {
+        height: 30vh;
+    }
+    .namken {
+        top: 85%;
+    }
+    .namkeen {
+        width: 36%;
+        height: 5vh;
+    }
+    .namkeen h3 {
+        font-size: 23px;
+    }
+    .line1 {
+        margin-top: 36px;
+    }
+    .nam1 {
+        height: 17vh;
+        width: 49%;
+    }
+    #fourth {
+        height: 30vh;
+    }
+    #fifth {
+        height: 30vh;
+    }
+    #sixth {
+        height: 40vh;
+    }
+    #text1>p {
+        font-size: 18px;
+        font-weight: 500;
+        border-bottom: 2px solid #dabb78
+    }
+    #text1 {
+        left: 28%;
+    }
+    #bottom {
+        height: 60vh;
+    }
+    #address {
+        width: 54%;
+        left: 6%;
+    }
+    #addr {
+        font-size: 10px;
+    }
+    #quick {
+        left: -48%;
+        top: 55%;
+    }
+    #quickLink>h4 {
+        font-size: 15px;
+    }
+    #link>a {
+        font-size: 13px;
+    }
+    #copy {
+        margin-left: 4px;
+    }
+    #copy i {
+        font-size: 10px;
+    }
+    #copy p {
+        font-size: 10px;
+    }
+    #copy a {
+        font-size: 10px;
+    }
+}
