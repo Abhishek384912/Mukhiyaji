@@ -23,7 +23,7 @@ html,body {
 }
 #start {
     display: flex;
-    gap: 50px;
+    gap: 60px;
     align-items: center;
     position: relative;
     left: 50%;
@@ -34,7 +34,7 @@ html,body {
     font-family: "gilroy";
     color: black;   
     font-weight: 500;
-    font-size: 12px;
+    font-size: 15px;
 }
 #line {
     width: 100%;
@@ -388,7 +388,7 @@ html,body {
 #logo {
     position: relative;
     z-index: 999;
-    background-color: rgb(243, 193, 86);
+    background-color: rgb(90, 76, 22);
     width: 12%;
     height: 155%;
     top: 25%;
