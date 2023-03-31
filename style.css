@@ -1,8 +1,16 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 * {
     margin: 0;
     padding: 0;
     font-family: "gilroy";
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 html,body {
     width: 100%;
@@ -17,17 +25,25 @@ html,body {
     width: 100%;
     height: 10vh;
     background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     position: fixed;
     z-index: 999;
 }
 #start {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 60px;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     position: relative;
     left: 50%;
-    transform: translate(-50%,0);
+    -webkit-transform: translate(-50%,0);
+        -ms-transform: translate(-50%,0);
+            transform: translate(-50%,0);
 }
 #start a {
     text-decoration: none;
@@ -51,8 +67,10 @@ html,body {
     background-size: cover;
 }
 #first>img {
-    object-fit: cover;
-    object-position: center;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
     z-index: 99;
 }
 #second {
@@ -60,9 +78,13 @@ html,body {
     height: 30vh;
 }
 #taste{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 20px;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     position: relative;
     top: 20%;
 }
@@ -87,24 +109,42 @@ html,body {
 #taste i {
     color: #fac44b;
     font-size: 45px;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-bottom: 8px;
 }
 #taste h4 {
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     font-weight: 500;
     margin-bottom: 5px;
     font-size: 18px;
     
 }
 #taste p {
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     opacity: .4;
     font-size: 15px;
 }
@@ -118,10 +158,18 @@ html,body {
     height: 7vh;
     position: absolute;
     left: 50%;
-    transform: translate(-50%,50%);
+    -webkit-transform: translate(-50%,50%);
+        -ms-transform: translate(-50%,50%);
+            transform: translate(-50%,50%);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .namkeen h3 {
     font-weight: 500;
@@ -133,7 +181,9 @@ html,body {
     height: 1px;
     position: absolute;
     left: 50%;
-    transform: translate(-50%,0);
+    -webkit-transform: translate(-50%,0);
+        -ms-transform: translate(-50%,0);
+            transform: translate(-50%,0);
     margin-top: 55px;
 }
 #namke {
@@ -146,7 +196,9 @@ html,body {
     position: relative;
     top: 60%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
     display: inline-block;
     white-space: nowrap;
     overflow-x: auto;
@@ -190,8 +242,14 @@ html,body {
     width: 100%;
     height: 20%; 
     background-color: #fff;   
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;   
+        -ms-flex-pack: center;   
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 #text>p {
@@ -265,7 +323,9 @@ html,body {
     position: relative;
     top: 6%;
     left: 38%;
-    transform: translate(0,-50%);
+    -webkit-transform: translate(0,-50%);
+        -ms-transform: translate(0,-50%);
+            transform: translate(0,-50%);
 }
 #text1>p {
     font-size: 40px;
@@ -279,9 +339,13 @@ html,body {
     width: 100%;
     height: 73%;
     top: 22%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 20px;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 #div2 {
     width: 32%;
@@ -310,6 +374,8 @@ html,body {
     width: 100%;
     height: 30vh;
     background-color: #d5dfa0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 #address {
@@ -349,7 +415,12 @@ html,body {
     text-decoration: none;
     color: black;
     font-weight: 500;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-bottom: 5px;
     font-size: 16px;
@@ -358,14 +429,20 @@ html,body {
     width: 100%;
     height: 6vh;
     background-color: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     white-space: nowrap;
     
 }
 #copy {
     margin-left: 180px;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     white-space: nowrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 20px;
 }
@@ -394,9 +471,15 @@ html,body {
     top: 25%;
     left: -38%;
     border-radius: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     rotate: -10deg;
 }
 #logo>img {
